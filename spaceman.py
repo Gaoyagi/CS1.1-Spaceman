@@ -22,10 +22,10 @@ class gameEn:
         # Initialise
         self.word = list(word)
         self.shownWord = list(word)
-        self.tIncGuess = 0
+        self.tIncGuess = 0                              
         self.nIncGuess = 0
         self.gLetter = []
-        self.incLetter = []
+        self.incLetter = []                         
 
         for l in range(0, len(self.shownWord)):
             self.shownWord[l] = '_'
