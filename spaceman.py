@@ -22,7 +22,7 @@ class gameEn:
         # Initialise
         self.word = list(word)
         self.shownWord = list(word)
-        self.tIncGuess = 0
+        self.tIncGuess = 0                              #rename the following 4 variables
         self.nIncGuess = 0
         self.gLetter = []
         self.incLetter = []
